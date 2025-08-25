@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Prático 4</title>
+</head>
+<body>
+    <h1>Entre em Contato</h1>
+     <form action="/ submit_form" method="post">
+        <label for="name">Nome completo:</label><br>
+        <input type="name" id="name" name="name" placeholder="Digite seu nome" required><br><br>
+
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Digite seu email" required><br><br>
+        
+        <label for="password"> Mensagem:</label>
+        
+        <br><textarea name="mensagem" id="mensagem" rows="4" cols="40" required></textarea><br> 
+
+
+
+        <input type="submit" value="Enviar">
+
+
+
+    
+</body>
+</html>
